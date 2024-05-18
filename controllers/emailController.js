@@ -2,7 +2,7 @@ const nodemailer = require('nodemailer');
 
 const emailController = {
     sendEmail: (req, res) => {
-        const { smtpHost, smtpPort, smtpUser, smtpPass, to, subject, text } = req.body;
+        const { smtpHost, smtpPort, smtpUser, smtpPass, to, from, subject, text } = req.body;
 
         const transporter = nodemailer.createTransport({
             host: smtpHost,
@@ -15,7 +15,7 @@ const emailController = {
         });
 
         const mailOptions = {
-            from: smtpUser,
+            from,
             to,
             subject,
             html : text
