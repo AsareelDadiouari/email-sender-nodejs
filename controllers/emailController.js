@@ -25,7 +25,9 @@ const emailController = {
             if (error) {
                 return res.status(500).send(error.toString());
             }
-            res.status(200).send('Email sent: ' + info.response);
+            res.status(200).json({
+                message: 'Email sent: ' + info.response
+            });
         });
     }
 };
