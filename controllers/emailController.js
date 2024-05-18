@@ -18,7 +18,7 @@ const emailController = {
             from: smtpUser,
             to,
             subject,
-            text
+            html : text
         };
 
         transporter.sendMail(mailOptions, (error, info) => {
