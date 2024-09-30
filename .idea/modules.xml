@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/OneDrive/Bureau/PME 4.0/Landing-page-pme4.0/.idea/Landing-page-pme4.0.iml" filepath="$USER_HOME$/OneDrive/Bureau/PME 4.0/Landing-page-pme4.0/.idea/Landing-page-pme4.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mail-sender.iml" filepath="$PROJECT_DIR$/.idea/mail-sender.iml" />
     </modules>
   </component>

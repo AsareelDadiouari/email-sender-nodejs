@@ -11,6 +11,9 @@ const emailController = {
             auth: {
                 user: smtpUser,
                 pass: smtpPass
+            },
+            tls: {
+                ciphers: 'TLSv1.2'
             }
         });
 
